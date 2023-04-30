@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:title="Занятия"
+        android:icon="@drawable/trains_selector"/>
+    <item
+        android:id="@+id/action_checkbox"
+        android:enabled="true"
+        android:title="Заявки"
+        android:icon="@drawable/checkbox_selector"/>
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:title="Добавить"
+        android:icon="@drawable/add_selector"/>
+    <item
+        android:id="@+id/action_chat"
+        android:enabled="true"
+        android:title="Чат"
+        android:icon="@drawable/chat_selector"/>
+    <item
+        android:id="@+id/action_more"
+        android:enabled="true"
+        android:title="Еще"
+        android:icon="@drawable/more_selector"/>
+</menu>

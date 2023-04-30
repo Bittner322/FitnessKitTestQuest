@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:maxHeight="300dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cardTypeColorImageView"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#55FFFF"/>
+
+        <TextView
+            android:id="@+id/startTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cardTypeColorImageView"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:layout_marginTop="12dp"
+            android:text="11:40"/>
+
+        <TextView
+            android:id="@+id/endTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:maxWidth="50dp"
+            android:text="12:40"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/cardTypeColorImageView"
+            app:layout_constraintTop_toBottomOf="@id/startTimeTextView" />
+
+        <TextView
+            android:id="@+id/trainingNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:maxWidth="200dp"
+            android:ellipsize="middle"
+            android:maxLines="1"
+            android:text="Силовая тренировка"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/startTimeTextView"
+            app:layout_constraintStart_toEndOf="@id/startTimeTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trainerIconImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/ic_trainer"
+            app:layout_constraintBottom_toBottomOf="@+id/endTimeTextView"
+            app:layout_constraintStart_toEndOf="@+id/endTimeTextView"
+            app:layout_constraintTop_toTopOf="@+id/endTimeTextView" />
+
+        <TextView
+            android:id="@+id/trainerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:maxWidth="150dp"
+            android:text="Михаил Андреевич"
+            app:layout_constraintBottom_toBottomOf="@id/trainerIconImageView"
+            app:layout_constraintStart_toEndOf="@id/trainerIconImageView"
+            app:layout_constraintTop_toTopOf="@id/trainerIconImageView" />
+
+        <ImageView
+            android:id="@+id/locationImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_location"
+            app:layout_constraintBottom_toBottomOf="@+id/trainerNameTextView"
+            app:layout_constraintStart_toEndOf="@+id/trainerNameTextView"
+            app:layout_constraintTop_toTopOf="@+id/trainerNameTextView"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/locationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:ellipsize="middle"
+            android:maxLines="1"
+            android:text="Студия 2"
+            android:maxWidth="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/locationImageView"
+            app:layout_constraintStart_toEndOf="@+id/locationImageView"
+            app:layout_constraintTop_toTopOf="@+id/locationImageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
