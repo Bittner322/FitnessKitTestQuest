@@ -3,9 +3,7 @@ package com.example.fitnesskittestquest.presentation.main_activity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
-import com.example.fitnesskittestquest.R
 import com.example.fitnesskittestquest.databinding.ActivityMainBinding
 import com.example.fitnesskittestquest.di.ComponentStorage
 import com.example.fitnesskittestquest.di.components.DaggerMainActivityComponent

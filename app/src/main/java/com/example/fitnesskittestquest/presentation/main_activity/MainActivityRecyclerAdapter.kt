@@ -2,9 +2,6 @@ package com.example.fitnesskittestquest.presentation.main_activity
 
 import android.annotation.SuppressLint
 import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
-import android.graphics.drawable.Drawable
-import android.media.Image
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,11 +10,6 @@ import android.widget.TextView
 import androidx.core.graphics.drawable.toDrawable
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fitnesskittestquest.R
-import com.example.fitnesskittestquest.data.database.models.Lesson
-import com.example.fitnesskittestquest.data.database.models.Trainer
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
 
 class MainActivityRecyclerAdapter:
     RecyclerView.Adapter<MainActivityRecyclerAdapter.MyViewHolders>() {

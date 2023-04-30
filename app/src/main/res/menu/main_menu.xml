@@ -3,26 +3,26 @@
     <item
         android:id="@+id/action_home"
         android:enabled="true"
-        android:title="Занятия"
+        android:title="@string/trainsMenuTestText"
         android:icon="@drawable/trains_selector"/>
     <item
         android:id="@+id/action_checkbox"
         android:enabled="true"
-        android:title="Заявки"
+        android:title="@string/ordersMenuTestText"
         android:icon="@drawable/checkbox_selector"/>
     <item
         android:id="@+id/action_add"
         android:enabled="true"
-        android:title="Добавить"
+        android:title="@string/addMenuTestText"
         android:icon="@drawable/add_selector"/>
     <item
         android:id="@+id/action_chat"
         android:enabled="true"
-        android:title="Чат"
+        android:title="@string/chatMenuTestText"
         android:icon="@drawable/chat_selector"/>
     <item
         android:id="@+id/action_more"
         android:enabled="true"
-        android:title="Еще"
+        android:title="@string/moreMenuTestText"
         android:icon="@drawable/more_selector"/>
 </menu>

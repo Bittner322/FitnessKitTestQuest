@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FitnessKitTestQuest</string>
+
+    <string name="startTimeTestText">11:40</string>
+    <string name="endTimeTestText">12:40</string>
+    <string name="trainingNameTestText">Силовая тренировка</string>
+    <string name="coachNameTestText">Михаил Андреевич</string>
+    <string name="placeTestText">Студия 2</string>
+
+    <string name="trainsMenuTestText">Занятия</string>
+    <string name="ordersMenuTestText">Заявки</string>
+    <string name="addMenuTestText">Добавить</string>
+    <string name="chatMenuTestText">Чат</string>
+    <string name="moreMenuTestText">Ещё</string>
 </resources>
