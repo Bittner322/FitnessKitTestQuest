@@ -10,6 +10,6 @@ class DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideArticleDatabase(): FitnessDatabase = FitnessDatabase.INSTANCE
+    fun provideFitnessDatabase(): FitnessDatabase = FitnessDatabase.INSTANCE
 
 }
